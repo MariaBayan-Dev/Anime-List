@@ -104,8 +104,9 @@ main{
 }
 
 .card-info span{
-    font-size: 12px;
-    border-radius: 8px;
+    font-size: 0.75rem;
+    border-radius: 10px;
     padding: 5px;
+    margin: 5px;
     background-color: var(--color-accent);
 }
