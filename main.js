@@ -10,9 +10,26 @@ const fetchAnimes = async () => {
     const data = await response.json()
     console.log(data)
 
-    data.data.forEach((listAnime) => {
+    data.data.forEach((anime) => {
         console.log(listAnime)
+
+        const generosHTML = anime.genres.map((genero) => `<span>${genero.name}</span>`).join("")
+
+        const cardHTML = `
+
+        <li class="anime-card">
+        <img src="${anime.images.jpg.image_url}">
+
+            <div class="card-info">
+                <h2>${anime.title}</h2>
+                ${generosHTML}
+            </div>
+        </li>
+        `
+
+        listAnime.insertAdjacentHTML('beforeend', cardHTML)
     })
 }
 
 fetchAnimes()
+
