@@ -22,6 +22,7 @@ const fetchAnimes = async () => {
 
             <div class="card-info">
                 <h2>${anime.title}</h2>
+                <strong>⭐ ${anime.score}</strong>
                 ${generosHTML}
             </div>
         </li>

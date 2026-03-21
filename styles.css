@@ -80,12 +80,13 @@ main{
     padding: 1rem 2rem;
     background-color: var(--color-section);
     border-radius: 15px;
+    box-shadow: var(--box-shadow);
 }
 
 .list-anime{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 10px;
+    gap: 1rem;
 }
 
 .anime-card{
@@ -93,10 +94,15 @@ main{
     flex-direction: column;
     border-radius: 15px;
     background-color: var(--color-card);
-    box-shadow: var(--box-shadow);
+    transition: transform 0.3s ease;
+}
+
+.anime-card:hover{
+    transform: translateY(-8px);
 }
 
 .anime-card img{
+    border-radius: 15px 15px 0 0;
     height: 400px;
     width: 100%;
     object-fit: cover;
@@ -112,4 +118,9 @@ main{
     padding: 5px;
     margin-right: 5px;
     background-color: var(--color-accent);
+}
+
+.card-info strong{
+    display: block;
+    margin-bottom: 10px;
 }
