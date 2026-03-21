@@ -65,3 +65,47 @@ header{
     flex: 1;
     text-align: center;
 }
+
+
+/*----ESTILOS TARJETAS---*/
+
+main{
+    margin-top: 2rem;
+}
+
+.section-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    background-color: var(--color-section);
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 7px 29px 0px;
+    border-radius: 15px;
+}
+
+.list-anime{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.anime-card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    background-color: var(--color-card);
+}
+
+.anime-card img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-info{
+    padding: 1rem;
+}
+
+.card-info span{
+    font-size: 12px;
+    border-radius: 8px;
+    padding: 5px;
+    background-color: var(--color-accent);
+}
