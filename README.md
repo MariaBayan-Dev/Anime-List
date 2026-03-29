@@ -23,7 +23,7 @@ A web project that displays popular anime using an external API.
 - Improve UI and visual design
 
 ## 🔗 Live Demo
-👉 [https://mariabayan-dev.github.io/Anime-List/] (Anime List Demo)
+👉 [Anime List](https://mariabayan-dev.github.io/Anime-List/)
 
 ## 📸 Preview
 
