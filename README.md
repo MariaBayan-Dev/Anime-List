@@ -21,3 +21,10 @@ A web project that displays popular anime using an external API.
 - Add search functionality  
 - Add favorites system  
 - Improve UI and visual design
+
+## 🔗 Live Demo
+👉 [https://mariabayan-dev.github.io/Anime-List/](Anime List Demo)
+
+## 📸 Preview
+
+![Preview](./preview.gif)
