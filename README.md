@@ -10,7 +10,7 @@ A web project that displays popular anime using an external API.
 - HTML  
 - CSS  
 - JavaScript  
-- External API  
+![API](https://img.shields.io/badge/API-grey)
 
 ## 📚 What I learned
 - Working with APIs  
