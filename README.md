@@ -27,4 +27,4 @@ A web project that displays popular anime using an external API.
 
 ## 📸 Preview
 
-![Preview](./preview.gif)
+![ezgif-625980699369fdd4](https://github.com/user-attachments/assets/0f9a5e6a-c69b-4ef6-b52a-17e12564da05)
